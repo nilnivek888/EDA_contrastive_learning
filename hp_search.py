@@ -35,8 +35,8 @@ if __name__=='__main__':
                  tags=['optuna'],
                  reuse_last_task_id=True)
     configs = {
-        'template_task_id': '4ba322b84e444d70abe9ecb6808ab9d3',
-        'aug_target': ['GaussianNoise_Det'],
+        'template_task_id': '590c515c36cf49289deb488858a540ec',
+        'aug_target': ['HighFreqNoise_Det'],
         'k': 3
     }
     configs = task.connect(configs)
